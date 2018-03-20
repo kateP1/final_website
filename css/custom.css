@@ -8,6 +8,11 @@ ul.social_icons, li
 {
     list-style:none;
     text-decoration:none;
-    display:block;
+    display:inline;ß
     position:relative;
+}
+
+.image-width{
+  width: 100px;
+  height: 100px;
 }
