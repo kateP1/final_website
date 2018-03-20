@@ -1,0 +1,7 @@
+ul.social_icons, li
+{
+    list-style: none;
+    text-decoration:none;
+    display:inline-block;
+    position: relative;
+}

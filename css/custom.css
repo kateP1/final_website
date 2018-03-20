@@ -1,0 +1,13 @@
+.jumbotron{
+  background-color:#f2f2f2;
+}
+.h1 color{
+font-colour:#cfcfcf;
+}
+ul.social_icons, li
+{
+    list-style:none;
+    text-decoration:none;
+    display:block;
+    position:relative;
+}

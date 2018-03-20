@@ -1,0 +1,5 @@
+.social-text-align{
+  text-align: right;
+  @media screen and (max-width: $screen-md) {
+    text-align: left !important;
+  }

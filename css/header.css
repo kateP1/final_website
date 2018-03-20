@@ -1,0 +1,65 @@
+.responsive {
+display: none;
+}
+
+.header-section {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 999;
+padding: 0 50px;
+background: white;
+}
+
+.header-section .logo {
+display: inline-block;
+float: left;
+padding-top: 30px;
+}
+
+.header-section .logo img {
+width: auto;
+}
+
+.header-section .menu-list {
+list-style: none;
+float: right;
+}
+
+.header-section .menu-list li {
+display: inline;
+}
+
+.header-section .menu-list li a {
+display: inline-block;
+padding: 35px 15px;
+margin-right: 15px;
+color: #222;
+position: relative;
+font-family: Helvetica, sans-serif;
+font-size: 15px;
+letter-spacing: 0.09em;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+}
+
+.header-section .menu-list li a:hover,
+.header-section .menu-list li a.active {
+color: #6a23b5;
+}
+
+.header-section .menu-list li:last-child a {
+margin-right: 0;
+}
+
+.header-section .menu-list li.active a {
+background: #2be6ab;
+color: #6a23b5;
+}
+
+.header-section .menu-list .current a:after {
+width: 10px;
+margin-left: -5px;
+}
